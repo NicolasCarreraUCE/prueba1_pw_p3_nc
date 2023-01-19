@@ -1,13 +1,13 @@
 <template>
-  <juego-casino/>
+  <Juego/>
 </template>
 
 <script>
-import JuegoCasino from './pages/JuegoCasino.vue';
+import Juego from './components/Juego.vue';
 export default {
   name: 'App',
   components: {
-    JuegoCasino
+    Juego
   }
 }
 </script>
